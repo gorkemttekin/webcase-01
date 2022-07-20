@@ -23,6 +23,10 @@ body {
 }
 #emoji {
   width: 150px;
+  cursor: pointer;
+}
+#emoji:hover {
+  transform: rotate(30deg);
 }
 .content p {
   color: #a19f9a;
@@ -36,13 +40,20 @@ body {
   justify-content: space-evenly;
   margin-top: 20px;
 }
+.fa-black-icons {
+  color: black;
+}
 nav {
   margin-top: 30px;
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   font-size: large;
 }
+nav a:hover {
+  color: #a19f9a;
+}
+
 footer {
   width: 100%;
   text-align: center;
